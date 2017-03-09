@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+    <metadata>
+        <id>RV.{{AssemblyProduct}}</id>
+        <version>{{AssemblyFileVersion}}</version>
+        <title>{{AssemblyTitle}}</title>
+        <authors>{{AssemblyCompany}}</authors>
+        <owners>{{AssemblyCompany}}</owners>
+        <projectUrl>https://github.com/</projectUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <iconUrl></iconUrl>
+        <summary>{{AssemblyDescription}}</summary>
+        <description>
+            Sync code invoking async code is a potential source of bugs. This R# plugin helps to find such places easily.
+        </description>
+        <copyright>{{AssemblyCopyright}}</copyright>
+        <tags>recommended extension resharper plugin addin prodot</tags>
+        <dependencies>
+            <dependency id="Wave" version="[7.0,7.1)" />
+        </dependencies>
+    </metadata>
+    <files>
+      <file src="" target="DotFiles" />
+    </files>
+</package>
