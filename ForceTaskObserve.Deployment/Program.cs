@@ -21,16 +21,16 @@ namespace ForceTaskObserve.Deployment
                 bool isReleaseBuild;
                 CopyAssembly(executionDirectoryPath, out assemblyPath, out isReleaseBuild);
 
-                if (isReleaseBuild)
-                {
-                    if (args.Length == 0)
-                    {
-                        throw new ArgumentException("SNK file not specified.");
-                    }
-
-                    var snkPath = args[0];
-                    ResignAssembly(assemblyPath, snkPath);
-                }
+//                if (isReleaseBuild)
+//                {
+//                    if (args.Length == 0)
+//                    {
+//                        throw new ArgumentException("SNK file not specified.");
+//                    }
+//
+//                    var snkPath = args[0];
+//                    ResignAssembly(assemblyPath, snkPath);
+//                }
 
                 string nuspecPath;
                 UpdateNuspec(executionDirectoryPath, assemblyPath, out nuspecPath);
